@@ -1,8 +1,18 @@
-# React + Vite
+# Add Comment Component - Validation using Formik
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a simple **Add Comment** component built using **React** and **Formik** for form handling and validation. The component allows users to add comments, with form validation ensuring that the comment field is not empty.
 
-Currently, two official plugins are available:
+## Libraries
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Formik** for form handling and validation.
+- **React.js** for form elements.
+- Validation to ensure comment field is filled before submission.
+- Submit action handler for processing the comment data (using formik).
+
+
+### Install Dependencies
+
+To install the required dependencies, run:
+
+```bash
+npm install
